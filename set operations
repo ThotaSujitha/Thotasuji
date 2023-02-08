@@ -1,0 +1,14 @@
+A={"a","b","c","d"}
+B={"a","e","f","b"}
+print(A.union(B))
+print(A.intersection(B))
+print(A.difference(B))
+print(A.symmetric_difference(B))
+A.add("x")
+print("After Adding x to A:",A)
+A.update(B)
+print("After update A with B:",A)
+A.remove("b")
+print("After remove element b from A:",A)
+B.discard("f")
+print("After Discarding element f from B",B)
