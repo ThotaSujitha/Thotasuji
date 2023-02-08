@@ -1,0 +1,11 @@
+nums={}
+s=[]
+n=int(input("Enter range:"))
+for i in range(n):
+    key=int(input("Enter Key:"))
+    value=int(input("Enter Value:"))
+    nums[key]=value
+print(nums)
+for i in nums:
+    s.append(i+nums[i])
+print(s)
