@@ -1,0 +1,11 @@
+a,b=5,6
+print(a<b)
+print(a>b)
+print(a==b)
+a=6
+print(a==b)
+print(a<=b)
+print(a>=b)
+print(a!=b)
+b=7
+print(a!=b)
