@@ -1,0 +1,6 @@
+setS=set()
+n=int(input("Enter Length of Set:"))
+for i in range(n):
+    element=int(input("Enter Element:"))
+    setS.add(element)
+print(setS)
