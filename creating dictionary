@@ -1,0 +1,7 @@
+A={}
+n=int(input("Enter Length:"))
+for i in range(n):
+    a=input("Enter Key:")
+    b=input("Enter value:")
+    A[a]=b
+print(A)
