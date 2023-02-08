@@ -1,0 +1,6 @@
+k=[]
+n=int(input("Enter Length of the list :"))
+for i in range(n):
+    element=int(input("Enter Elements :"))
+    k.append(element)
+print(k)
