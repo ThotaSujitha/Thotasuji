@@ -1,0 +1,10 @@
+t=()
+s=0
+n=int(input("Enter Length:"))
+for i in range(n):
+    element=int(input("Enter Val:"))
+    t=t+(element,)
+print(t)
+for i in t:
+    s=s+i
+print("sum:",s)
