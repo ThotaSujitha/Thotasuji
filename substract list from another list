@@ -1,0 +1,6 @@
+l1=["bat","cat","rat","dog"]
+l2=["cat","rat"]
+for i in l2:
+    if (i in l1):
+        l1.remove(i)
+print(l1)
